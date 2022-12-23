@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-crm-rest-demo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-crm-rest-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-crm-rest.war">
+      <element id="artifact" artifact-name="spring-crm-rest-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
